@@ -1,0 +1,43 @@
+.main{
+    background: grey;
+}
+
+.logo{
+    
+    width: 10%;
+}
+.nav{
+    
+    float: left;
+    width: 90%;
+    height: 190px;
+    background: black;
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.nav button{
+    background: black;
+}
+.nav button:hover{
+    background-color: red;
+}
+.nav li{
+    float: left;
+    margin-left: 20%;
+    border-right: 1px;
+    border-color: white;
+}
+.nav li a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+
+}
