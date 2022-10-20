@@ -1,43 +1,142 @@
-.main{
-    background: grey;
-}
-
-.logo{
-    
-    width: 10%;
-}
-.nav{
-    
-    float: left;
-    width: 90%;
-    height: 190px;
-    background: black;
-}
-.nav ul{
-    list-style-type: none;
+body{
     margin: 0;
-    padding: 0;
-    overflow: hidden;
+    background-color: rgb(202, 199, 199);
+    overflow-y: scroll;
+}
 
+/*Universal stuf*/
+.border{
+    border-style:solid ;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 3px;
 }
-.nav button{
-    background: black;
+
+.font-arial{
+    font-family: sans-serif;
 }
-.nav button:hover{
-    background-color: red;
+
+.height-pictures{
+    height: 300px;
 }
-.nav li{
-    float: left;
-    margin-left: 20%;
-    border-right: 1px;
-    border-color: white;
+
+/*other stuf*/
+hr{
+    
+   size: 200px;
 }
-.nav li a{
-    display: block;
-    padding: 8px;
+
+/*
+navbar stuf
+*/
+
+a{
     text-decoration: none;
-    text-align: center;
-    font-size: 50px;
-    color: white;
+    color: black;
+}
 
+nav a{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+
+button{
+    text-decoration: none;
+    color: black;
+
+}
+nav button {
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 600;
+    padding-right: 30px;
+
+}
+
+.politics button:hover{
+    background-image: url(images/politicsPicture2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.entretainment button:hover{
+    background-image: url(images/entretainmentPicture2.cms);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.business button:hover{
+    background-image: url(images/businessPicture2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.navbar{
+    display: flex;
+    height: 70px;
+    background-color: rgb(247, 231, 202);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    margin-right: 10px;
+    height: 100px;
+}
+
+
+/*title*/
+.title{
+    font-size: 50px;
+    display: block;
+}
+.title h1{
+    position: absolute;
+    right: 650px;
+}
+
+/*top articles stuf*/
+.news1{
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+    top: 400px;
+    
+}
+
+.news2{
+    display: inline-block;
+    position: absolute;
+    right: 300px;
+    top: 400px;
+}
+
+.news3{
+    position: absolute;
+    display: inline;
+    top: 1000px;
+    left: 300px;
+    
+}
+.news3 img{
+    height: 300px;
+}
+
+.contact{
+    display: inline;
+    position: absolute;
+    bottom: -1000px;
+    left: 200px;
+    
 }
