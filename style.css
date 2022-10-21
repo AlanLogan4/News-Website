@@ -26,10 +26,7 @@ hr{
    size: 200px;
 }
 
-/*
-navbar stuf
-*/
-
+/*navbar stuf*/
 a{
     text-decoration: none;
     color: black;
@@ -42,12 +39,12 @@ nav a{
     padding-right: 30px;
 }
 
-
 button{
     text-decoration: none;
     color: black;
 
 }
+
 nav button {
     font-family: arial;
     font-size: 40px;
@@ -77,7 +74,6 @@ nav button {
     background-position: center;
 }
 
-
 .navbar{
     display: flex;
     height: 70px;
@@ -86,21 +82,30 @@ nav button {
     align-items: center;
     padding: 10px;
 }
+
 .logo{
     display: flex;
     align-items: center;
 }
+
 .logo img {
     margin-right: 10px;
     height: 100px;
 }
-
 
 /*title*/
 .title{
     font-size: 50px;
     display: block;
 }
+
+.title2{
+    font-size: 50px;
+    display: block;
+    position: absolute;
+    right: 800px;
+}
+
 .title h1{
     position: absolute;
     right: 650px;
@@ -129,6 +134,7 @@ nav button {
     left: 300px;
     
 }
+
 .news3 img{
     height: 300px;
 }
@@ -139,4 +145,52 @@ nav button {
     bottom: -1000px;
     left: 200px;
     
+}
+
+/*Entreiantment news*/
+.enews1{
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+
+}
+
+.enews2{
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+    top: 400px;
+}
+
+/*Politic news*/
+.pnews1{
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+
+}
+
+.pnews2{
+    display: inline-block;
+    position: absolute;
+    right: 400px;
+    top: 400px;
+
+}
+
+/*Business news*/
+.bnews1{
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
+
+.bnews2{
+    display: inline-block;
+    position: absolute;
+    right: 400px;
+    top: 400px;
 }
