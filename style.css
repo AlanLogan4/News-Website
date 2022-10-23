@@ -21,9 +21,14 @@ body{
 }
 
 /*other stuf*/
-hr{
-    
-   size: 200px;
+.contact2{
+    border-width: 3px 0px 0px 0px;
+    border-style: solid;
+    display: inline;
+    position: absolute;
+    bottom: -300px;
+    left: 200px;
+   
 }
 
 /*navbar stuf*/
@@ -140,6 +145,8 @@ nav button {
 }
 
 .contact{
+    border-width: 3px 0px 0px 0px;
+    border-style: solid;
     display: inline;
     position: absolute;
     bottom: -1000px;
@@ -191,6 +198,6 @@ nav button {
 .bnews2{
     display: inline-block;
     position: absolute;
-    right: 400px;
+    right: 300px;
     top: 400px;
 }
