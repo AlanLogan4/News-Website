@@ -1,7 +1,13 @@
-body{
+*{
     margin: 0;
-    background-color: rgb(202, 199, 199);
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
     overflow-y: scroll;
+    background-color: rgb(202, 199, 199);
 }
 
 /*Universal stuf*/
@@ -55,6 +61,7 @@ nav button {
     font-size: 40px;
     font-weight: 600;
     padding-right: 30px;
+    height: 70px;
 
 }
 
@@ -119,10 +126,15 @@ nav button {
 /*top articles stuf*/
 
 .grid-container{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: grid;
-    width: 100%;
-    grid-template-columns: auto auto auto;
+    width: 80%;
+    grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
+    gap: 4%;
+    box-sizing: border-box;
 }
 
 .grid-item-header{
@@ -130,41 +142,117 @@ nav button {
     grid-row: 1;
     grid-column: 1 / span 2;
     width: 100%;
-
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
 }
+
+
+
 
 .grid-item-news-business-1{
     grid-column: 2;
     grid-column: 1;
     box-sizing: border-box;
     width: 100%;
+    padding: 0 5% 0 5%;
 }
+
+.grid-item-news-business-1 h2{
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 5% 0;
+
+}
+
+.grid-item-news-business-1 p{
+    display: flex;
+    justify-content: center;
+    padding: 3% 0 3% 0;
+    font-size: 150%;
+}
+.grid-item-news-business-1 img{
+    display: flex;
+    margin: auto;
+    height: auto;
+}
+
+
+
 
 .grid-item-news-politics-1{
     grid-row: 2;
     grid-column: 2;
     box-sizing: border-box;
     width: 100%;
+    padding: 0 5% 0 5%;
 }
+
+.grid-item-news-politics-1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.grid-item-news-politics-1 p{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    padding: 3% 0 3% 0;
+}
+
+.grid-item-news-politics-1 img{
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+
+
+
 .grid-item-news-entretainmenet-1{
     grid-column: 1/ span 2;
     grid-row: 3;
     box-sizing: border-box;
     width: 100%;
+    padding: 0 5% 0 5%  ;
+}
+
+.grid-item-news-entretainmenet-1 p{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 150%;
+}
+
+.grid-item-news-entretainmenet-1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 
-.news3 img{
-    height: 300px;
+.grid-item-news-entretainmenet-1 img{
+    height: auto;
+    width: 50%;
+    display: flex;
+    margin: auto;
 }
+
+
 
 .contact{
     border-width: 3px 0px 0px 0px;
     border-style: solid;
-    display: inline;
+    margin-top: 20%;
     width: 100%;
-    position: absolute;
-    bottom: -1000px;
     
 }
 
